@@ -1,9 +1,8 @@
 # Avionics PC Software Tools
+This repository contains various programs that are used with the UMSATS student designed flight computer.
 
 ## Versions
 #### v1.0.0 - 2019 Spaceport America Cup Software Tools
-
-This repository contains various programs that are used with the UMSATS student designed flight computer.
 
 ## UART Serial Reader Utility
 This is a python program that reads from a serial COM port, and logs the raw bytes to a log file.
