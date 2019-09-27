@@ -2,6 +2,7 @@
 This repository contains various programs that are used with the UMSATS student designed flight computer.
 
 ## Versions
+#### v2.0.0 - 2020 Spaceport America Cup Software Tools
 #### v1.0.0 - 2019 Spaceport America Cup Software Tools
 
 ## UART Serial Reader Utility
