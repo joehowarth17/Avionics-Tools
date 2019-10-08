@@ -4,9 +4,7 @@ import os
 from flask import Flask
 
 globalData = {'serialOpen': False, 'terminalHistory': "", 'currentLogFile': "log.log", 'currentCSV': "UMSATS_ROCKET.log",'comPort': "",'baudRate':""}
-
 SerialPort = None
-
 def create_app(test_config=None):
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
@@ -46,7 +44,6 @@ def create_app(test_config=None):
         os.remove("./UMSATS_ROCKET.log")
 
     return app
-
 
 def getSerial():
     return SerialPort
